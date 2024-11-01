@@ -1,0 +1,38 @@
+.card{
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 6px;
+	margin: 20px 20px;
+	padding-left: 10px;
+}
+
+.card img{
+	border-radius: 6px;
+	width: 400px;
+	height: 300px;
+}
+
+.card h3{
+	flex-grow: 1;
+	padding-left: 10px;
+	font-size: 24px;
+}
+
+.card #{
+	padding-left: 30px;
+
+}
+.primary-card img{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+.primary-card{
+	justify-content: space-between;
+}
+.primary-card p{
+	padding-left: 30px;
+}
